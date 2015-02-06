@@ -1,0 +1,161 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.header-topline{
+    background-color: #a11c20;
+    padding: 15px 0;
+}
+.blog-name {
+    display: inline-block;
+    padding-left: 270px;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    z-index: 100;
+}
+.my-blog{
+    display: block;
+    float: right;
+    padding-left: 25px;
+}
+.useful{
+    display: block;
+    float: right;
+}
+.my-blog-btn{
+    display: block;
+    border: medium none;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.useful-btn {
+    display: block;
+    border: medium none;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.my-blog-btn:hover {
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 25px #FF1744;
+}
+.useful-btn:hover {
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 25px #FF1744;
+}
+a {
+    color: #ffffff;
+}
+.myblog_useful{
+    display: block;
+    border: medium none;
+    float: right;
+    background-color: transparent;
+    font-size: 26px;
+    color: #FF1744;
+}
+.myblog_useful:hover {
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 25px #FF5252;
+}
+.my-blog-mobile {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 25px;
+    float: right;
+}
+.useful-mobile {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 25px;
+    float: right;
+}
+.small-buttons {
+    float: right;
+    display: block;
+}
+.picture {
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+}
+img#gun {
+    width: 35%;
+    margin-top: 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 50;
+    left: 0px;
+}
+body {
+    /*text-align: center;*/
+    background:  #db2e34;
+    color: #ffffff;
+    position: relative;
+}
+/*.head {*/
+    /*text-align: right;*/
+    /*color: #ffffff;*/
+    /*font-family: 'Roboto', sans-serif;*/
+/*}*/
+#main-content {
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    float: right;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+#main-content .content {
+    width: 600px;
+    padding: 10px;
+}
+.content {
+    text-align: center;
+    line-height: 2;
+}
+h1 {
+    text-align: center;
+}
+p {
+    display: block;
+    margin: 0 0 1.5em;
+}
