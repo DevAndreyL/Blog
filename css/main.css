@@ -17,39 +17,13 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-
+	
 }
 body input:required:valid,
 body textarea:required:valid {
-
+	
 }
-/*Для временного решения футера*/
-/*html {*/
-    /*position: relative;*/
-/*min-height: 100%;*/
-/*}*/
-
-
-/*html, body, #wrap {*/
-    /*height: 100%;*/
-/*}*/
-/*body > #wrap {*/
-    /*height: auto;*/
-    /*min-height: 100%;*/
-/*}*/
-
-/*для временного решения футера*/
-/*body {*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-	/*font-family: "RobotoRegular", sans-serif;*/
-	/*font-size: 16px;*/
-/*}*/
-
-
 body {
-    /*width: 100%;*/
-    /*height: 100%;*/
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 }
@@ -167,6 +141,7 @@ body {
     /*width: auto;*/
     float: right;
     margin-top: 60px;
+    padding-bottom: 20px;
     z-index: 100;
 }
 .content {
@@ -187,10 +162,6 @@ p {
     position:relative;
     display: inline-block;
     margin:0em .5em;
-<<<<<<< HEAD
-    margin-bottom: 20px;
-=======
->>>>>>> origin/master
     padding:0.01em 1.23em;
     background:#FF1744;
     color:#fff;
@@ -233,49 +204,4 @@ p {
 }
 .sly {
     display: none;
-<<<<<<< HEAD
-}
-
-/*Временное решение footer-a*/
-/*#footer {*/
-    /*background-color: #a11c20;*/
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*bottom: 0px;*/
-    /*height: 60px;*/
-    /*clear: both;*/
-/*}*/
-
-* {
-    margin: 0;
-}
-html, body {
-    height: 100%;
-}
-.wrap {
-    min-height: 100%;
-    /* equal to footer height */
-    margin-bottom: -76px;
-}
-.wrap:after {
-    content: "";
-    display: block;
-}
-.footer, .wrap:after {
-    /* .push must be the same height as footer */
-    height: 76px;
-}
-.footer {
-    position: relative;
-    /*margin-top: -150px;*/
-
-    clear: both;
-    background: #a11c20;
-}
-.social-buttons {
-    float: right;
-    padding: 20px;
-    font-size: 25px;
-=======
->>>>>>> origin/master
 }
